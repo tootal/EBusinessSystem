@@ -49,6 +49,8 @@
     		<td>${order.user.email }</td>
     	</tr>
 	</table>
+	<c:if test="${order.state==false}">
 	<a href="${pageContext.request.contextPath }/manager/ConfirmOrderServlet?orderId=${order.id}&orderEmail=${order.user.email}">确认发货</a>
+	</c:if>
   </body>
 </html>

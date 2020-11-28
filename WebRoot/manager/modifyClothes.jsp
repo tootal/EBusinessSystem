@@ -34,7 +34,7 @@
    	</div>
  	<div class="form-group">
     		<label>商品描述：</label>
-    			<textarea class="form-control" rows="5" cols="40" name="description" value="<%=request.getParameter("description")%>"></textarea>
+    			<textarea class="form-control" rows="5" cols="40" name="description"><%=request.getParameter("description")%></textarea>
    	</div>
     	
     			<input class="btn btn-default" type="reset" value="清空">
